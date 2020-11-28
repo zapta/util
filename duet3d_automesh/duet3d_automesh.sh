@@ -7,7 +7,7 @@ date > $log
 echo "Args: $*" >> $log
 echo >> $log
 
-$python3 /projects/misc/repo/duet3d_automesh/duet3d_automesh.py "$*" 2>&1 > $log
+$python3 /projects/util/repo/duet3d_automesh/duet3d_automesh.py "$*" 2>&1 > $log
 
 RESULT=$?
 if [ $RESULT -eq 0 ]; then
