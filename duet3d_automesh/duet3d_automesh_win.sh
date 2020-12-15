@@ -21,7 +21,7 @@ function print_ok() {
   echo " ##     ## ##   ##  "
   echo " #######  ##    ##  "
   echo
-  sleep 3
+  sleep 2
 }
 
 
