@@ -4,7 +4,8 @@
 # http://www.patorjk.com/software/taag/#p=display&h=0&f=Banner3&t=error
 
 log="/tmp/automesh.txt"
-python3="/c/Users/User/AppData/Local/Programs/Python/Python38-32/python"
+#python3="/c/Users/User/AppData/Local/Programs/Python/Python38-32/python"
+python3="/c/Users/User/AppData/Local/Programs/Python/Python39/python"
 
 date > $log
 
